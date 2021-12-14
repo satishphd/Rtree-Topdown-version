@@ -31,4 +31,7 @@ Hit data rect 2
 
 Search resulted in 2 hits
 
-Note: In test.c, change #include "index.h"   to     #include "../include/index.h"
+**Dependency on librtree package**
+Note 1:  libtree.a is generated when the librtree package is unzipped and compiled/built using make. This creates a static library librtree.a which test.c should link against. 
+
+Note 2: In test.c, change #include "index.h"   to     #include "../include/index.h"
