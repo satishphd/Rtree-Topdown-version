@@ -1,7 +1,9 @@
 # Rtree-Topdown-version
 Guttman's Rtree Code with Example
 
-test.c contains the rtree construction and building functions and a test case.
+librtree-master.zip should be built first.
+
+test.c contains the rtree construction and building functions with a test case.
 
 **Compilation:**
 gcc test.c ../libtree.a -I/fall21/librtree/librtree-master/include -lm
