@@ -1,4 +1,4 @@
-# Rtree-Topdown-version
+# Rtree-Topdown-version in C
 Guttman's Rtree Code with Example
 
 librtree-master.zip should be built first. To build, unzip the folder librtree-master.zip and then go to the folder and type make command. After successful compilation, you will see a static library "libtree.a" getting newly created. In your R-tree code, you can link against this library. 
